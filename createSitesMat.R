@@ -48,7 +48,7 @@ give_sites_species_matrix_list <- function(the_list,index=NULL)
   }
 }
 
-test <- give_sites_species_matrix_list(sim.neutral,c(1))
-test2 <- give_sites_species_matrix_list(sim.niche,c(1))
+neutral <- give_sites_species_matrix_list(sim.neutral,1:200)
+niche <- give_sites_species_matrix_list(sim.niche,1:200)
 
 install.packages("")
